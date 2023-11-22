@@ -5,7 +5,7 @@ import { useHistory } from "react-router-dom";
 
 import { User } from "../types/api/user";
 import { useMessage } from "./useMessage";
-import { useLoginUser } from "../hooks/providers/useLoginUserProvider";
+import { useLoginUser } from "./providers/useLoginUserProvider";
 
 export const useAuth = () => {
   const history = useHistory();
